@@ -5,6 +5,10 @@ import 'package:flutter/material.dart';
 class NewsScreen extends StatelessWidget {
   const NewsScreen({Key? key}) : super(key: key);
 
+
+
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -37,7 +41,10 @@ class NewsScreen extends StatelessWidget {
                   width: 100, //横幅
                   height: 100,
                   child: ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () {
+
+
+                      },
                       child:Column(
                           children:const [
                             Spacer(flex: 1),
